@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Mariaup1.github/master
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -28,9 +28,10 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name: Run a multi-line script
-      run: |
+      run: |echo lodie
         echo Add other actions to build,
         echo test, and deploy your project.
+
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
